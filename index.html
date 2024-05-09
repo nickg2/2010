@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Workings of Welfare</title>
+</head>
+<body data-barba ="wrapper">
+    <header class="nav-header">
+        <h1><a href="/" id="logo">Workings of Welfare</a></h1>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home">
+
+        <section class="mountain slide">
+            <div class="fashion-no">
+                <span>↓</span>
+            </div>
+            <div class="hero-img">
+                <img src="img/slc.jpg" alt="forest-img">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>A magazine about welfare in <span class="mountain-span">Utah.</span></h2>
+                    <div class="title-line"></div>
+                    <div class="title-swipe t-swipe1"></div>
+                    
+                </div>
+                <p>This is an online magazine about the challenges, strengths, struggles, and solutions to welfare in Utah. Scroll down to see more.</p>
+                <a href="./editor/editor.html" class="explore mountain-exp">Editor's Note</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+        <section class="hike slide">
+            <div class="hero-img">
+                <img src="img/informational.png" alt="hike-img">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Information <span class="hike-span">Effect</span></h2>
+                    <div class="title-line"></div>
+                    <div class="title-swipe t-swipe2"></div>
+                </div>
+                <p>This is an informative slideshow that explains the basics of welfare in Utah.</p>
+                <a href="./info/info.html" class="explore mountain-exp">Open</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+        <section class="fashion slide">
+            <div class="hero-img">
+                <img src="img/profile.png" alt="fashion-img">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Profile <span class="fashion-span">video.</span></h2>
+                    <div class="title-line"></div>
+                    <div class="title-swipe t-swipe3"></div>
+                </div>
+                <p>In this video, we take a look into Mindy Smith's life. She is someone who makes a big difference in her community with her welfare efforts.</p>
+                <a href="./profile/profile.html" class="explore mountain-exp">Watch</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+        <!-- copying previous sections to create new ones -->
+
+        <section class="fashion slide">
+            <div class="hero-img">
+                <img src="img/memoir.png" alt="fashion-img">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Flash <span class="fashion-span">memoir.</span></h2>
+                    <div class="title-line"></div>
+                    <div class="title-swipe t-swipe3"></div>
+                </div>
+                <p>This is a personal memoir remembering how I first realized how important welfare is and some of the unique challenges it has in Utah.</p>
+                <a href="./memoir/memoir.html" class="explore mountain-exp">Read</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+        <section class="hike slide">
+            <div class="hero-img">
+                <img src="img/persuasive.png" alt="hike-img">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Persuasion <span class="hike-span">Effect</span></h2>
+                    <div class="title-line"></div>
+                    <div class="title-swipe t-swipe2"></div>
+                </div>
+                <p>This is the script of the hypothetical speech to be given to the Salt Lake City Council about the current state and next steps of our welfare system.</p>
+                <a href="./persuasion/persuasion.html" class="explore mountain-exp">Open</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--* Had to put the nav for no reason -->
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./info/info.html">Information Effect</a></li>
+            <li><a href="./profile/profile.html">Profile</a></li>
+            <li><a href="./memoir/memoir.html">Memoir</a></li>
+            <li><a href="./persuasion/persuasion.html">Persuasion Effect</a></li>
+
+        </ul>
+        <div class="contact">
+            <h2>Thank you for reading!</h2>
+            <p>Here are links to every page.</p>
+        </div>
+    </nav>
+
+    <!--* Circular cursor -->
+    <div class="cursor">
+        <span class="cursor-text"></span>
+    </div>
+    <!--* Transition swipes -->
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <!--* Scripts -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
